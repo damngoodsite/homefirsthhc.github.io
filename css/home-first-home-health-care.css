@@ -42,8 +42,10 @@ label {
   background-image: linear-gradient(225deg, #5c6bc0fa, #5cbcc0), url('../images/BG-mockup.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
-  height: 810px;
+  min-height: 810px;
+  height: auto;
   padding-top: 160px;
+  padding-bottom: 160px;
   padding-left: 35px;
   padding-right: 35px;
   position: relative;
@@ -221,16 +223,78 @@ label {
 }
 
 .section.main-features {
-  color: #fff;
-  background-color: #22263f;
-  background-image: linear-gradient(#22263f, #21295ef5), url('../images/BG-mockup.jpg');
-  background-position: 0 0, 50%;
-  background-size: auto, cover;
+  color: #333;
+  background-color: #fff;
   padding-top: 120px;
   padding-bottom: 280px;
-  display: none;
   position: relative;
   overflow: hidden;
+}
+
+.service-description {
+  font-size: 22px;
+  line-height: 150%;
+  margin-top: 15px;
+}
+
+.service-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.service-item {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.counties-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.counties-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.county {
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: #f6f9fc;
+  border-radius: 5px;
+}
+
+.title-wrapper {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title-underline {
+  height: 3px;
+  width: 100px;
+  background-color: #5c6bc0;
+  margin: 15px auto 0;
+}
+
+.services-wrapper {
+  margin-bottom: 40px;
+}
+
+.service-list-wrapper {
+  margin-top: 30px;
+}
+
+.service-list-block {
+  background-color: #f6f9fc;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .section.intro-section {
