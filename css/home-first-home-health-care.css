@@ -103,10 +103,6 @@ label {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: Nunito Sans, sans-serif;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 .navlink {
@@ -382,7 +378,7 @@ label {
 
 .logo {
   width: auto;
-  height: 100px;
+  height: 120px;
 }
 
 .hero-text-block {
